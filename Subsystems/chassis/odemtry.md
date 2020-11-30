@@ -35,5 +35,11 @@ Our code devloped our code using help from 205X Programming Annoted Video and 50
         RDistDistance = RDeta * RWheelDistance;
         SDistDistance = SDelta * SWheeelDistance;
 5. Now we need to get the change in angle
-        deltaA = (LDistDistance + RDistDistance)/(LeftDistance+RightDistance)
-    
+        deltaA = (LDistDistance + RDistDistance)/(LeftDistance+RightDistance);
+6. If the angle did not change at all we just set the x and y coordinates with the distance the tracking wheels rotated
+
+        if (deltaA == 0) {
+            localX = SDistDistance;
+            localY = LDistDistance;
+        }
+        
