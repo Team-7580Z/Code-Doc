@@ -42,4 +42,4 @@ Our code devloped our code using help from 205X Programming Annoted Video and 50
             localX = SDistDistance;
             localY = LDistDistance;
         }
-        
+7. If the change in angle was not equal to 0 we can now use trignomty to caluclate the new positon
