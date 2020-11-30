@@ -35,4 +35,5 @@ Our code devloped our code using help from 205X Programming Annoted Video and 50
         RDistDistance = RDeta * RWheelDistance;
         SDistDistance = SDelta * SWheeelDistance;
 5. Now we need to get the change in angle
+        deltaA = (LDistDistance + RDistDistance)/(LeftDistance+RightDistance)
     
