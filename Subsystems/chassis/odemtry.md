@@ -29,5 +29,10 @@ Our code devloped our code using help from 205X Programming Annoted Video and 50
         LPrevPos = lPos;
         RPrevPos = rPos;
         SPrevPos = sPos;
-4.
+4. Now we need to get the distance moved
+        
+        LDistDistance = LDelta * Lwheeldistance;
+        RDistDistance = RDeta * RWheelDistance;
+        SDistDistance = SDelta * SWheeelDistance;
+5. Now we need to get the change in angle
     
